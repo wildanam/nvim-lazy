@@ -2,7 +2,11 @@
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnd4aDhwbjh6aGpxdXhoNXI4cHd6NmZkczVhd3I4eTZmdjUydXBnbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qRf7qdK1OTUMU/giphy.gif" width="300" />
 </p>
 
-My simple and minimal Neovim setup with [lazy.nvim](https://github.com/folke/lazy.nvim) plugin manager.
+<p align="center">
+My simple and minimal Neovim setup with <a href="https://github.com/folke/lazy.nvim">lazy.nvim</a> plugin manager.
+</p>
+
+https://github.com/wildanam/nvim-lazy/assets/96191937/325e4630-dbd3-47f5-aa4f-3bb9ee94c00c
 
 # Requirements
 - Neovim 0.9.*
@@ -10,7 +14,7 @@ My simple and minimal Neovim setup with [lazy.nvim](https://github.com/folke/laz
 - Nerd Fonts - To display some icons
 
 # Installation
-I am on windows, so the config is under the directory ```~/AppData/Local/nvim``` and data are kept in ```~\AppData\Local\nvim-data```.
+I am on windows, so the config is under the directory ```~\AppData\Local\nvim``` and data are kept in ```~\AppData\Local\nvim-data```.
 
 - Make a backup of your current Neovim files
   
@@ -24,18 +28,21 @@ I am on windows, so the config is under the directory ```~/AppData/Local/nvim```
 - Clone this repo
   
   ```
+  
   git clone https://github.com/wildanam/nvim-lazy.git $env:LOCALAPPDATA\nvim
   
   ```
 - Remove the .git folder, so you can add the setup to your own repo
   
   ```
+  
   Remove-Item $env:LOCALAPPDATA\nvim\.git -Recurse -Force
   
   ```
 - Start Neovim 🔥
   
   ```
+  
   nvim
   
   ```
@@ -45,7 +52,7 @@ I am on windows, so the config is under the directory ```~/AppData/Local/nvim```
 - [nvim-lua/plenary.nvim](https://github.com/nvim-lua/plenary.nvim)
 
 ### Colorscheme
-- [catppuccin/nvim](https://github.com/catppuccin/nvim) - The mocha flavor is my favorite 😋
+- [catppuccin/nvim](https://github.com/catppuccin/nvim) - Mocha is my favorite 😋
 
 ### File Manager
 - [nvim-neo-tree/neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim)
@@ -104,6 +111,9 @@ Make sure to install [rigprep](https://github.com/BurntSushi/ripgrep) for telesc
 
 ### Indent
 - [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim) - IndentLine replacement in Lua with more features and treesitter support
+
+# Neovide
+I love the cursor animation so much 😍
 
 # Acknowledgements
 - [josean-dev](https://github.com/josean-dev/dev-environment-files)
